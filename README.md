@@ -1,18 +1,22 @@
 # Lixchess
+  - A chess game written in Elixir
 
-To start your Phoenix server:
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+# TODO
+  - Start with single page
+    - chess board
+      - movement, single click highlights possible moves
+      - click highlighted square to move or drag and drop
+    - basic instructions
+    - switch sides button
+    - new game button
+    - timer
+    - end game banners/modals
+    - set engine elo drop down
+  - Down the line
+    - welcome page with general info and various new game options
+    - play with friends
+      - basic user accounts and maybe single use codes
+      - in game chat
+    - move anylysis
+    - start game from fen string

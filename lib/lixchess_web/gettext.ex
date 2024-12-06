@@ -20,5 +20,5 @@ defmodule LixchessWeb.Gettext do
 
   See the [Gettext Docs](https://hexdocs.pm/gettext) for detailed usage.
   """
-  use Gettext, otp_app: :lixchess
+  use Gettext.Backend, otp_app: :lixchess
 end
